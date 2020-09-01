@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	<hibernate-mapping>
+	<class name="com.nit.entity.HB_InsurancePolicies"  table="HB_INSURANCEPOLICIES">
+	<id name="policy_num" >
+	<column name="POLICY_NUM"/>
+	</id>
+	<property name="policy_name">
+	<column name="POLICY_NAME"/>
+	</property>
+	<property name="policy_type">
+	<column name="POLICY_TYPE"/>
+	</property>
+	<property name="tenure">
+	<column name="TENURE"/>
+	</property>
+	<property name="company">
+	<column name="COMPANY"/>
+	</property>  </class>
+</hibernate-mapping>
